@@ -7,9 +7,9 @@ public class CreateTree {
 		TreeNode right = new TreeNode(6);
 		
 		root.left = left;
-//		root.right = right;
+		root.right = right;
 		
-//		left.left = new TreeNode(1);
+		left.left = new TreeNode(1);
 //		left.right = new TreeNode(3);
 //		
 //		right.left = new TreeNode(8);

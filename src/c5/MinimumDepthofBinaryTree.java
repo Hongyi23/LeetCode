@@ -2,7 +2,8 @@ package c5;
 
 class Solution_541 {
     public int minDepth(TreeNode root) {
-        if(root == null || (root.left == null && root.right == null)) return 1;
+    	if(root == null) return 0;
+        if(root.left == null && root.right == null) return 1;
         
         int left = 0, right = 0;
         if(root.left != null) left = minDepth(root.left) + 1;
