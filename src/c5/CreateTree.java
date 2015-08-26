@@ -10,10 +10,10 @@ public class CreateTree {
 		root.right = right;
 		
 		left.left = new TreeNode(1);
-//		left.right = new TreeNode(3);
-//		
-//		right.left = new TreeNode(8);
-//		right.right = new TreeNode(7);
+		left.right = new TreeNode(9);
+		
+		right.left = new TreeNode(5);
+		right.right = new TreeNode(7);
 		
 		return root;
 	}
