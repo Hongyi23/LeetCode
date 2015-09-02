@@ -3,5 +3,5 @@ package c1;
 public class ListNode {
 	int val;
 	ListNode next;
-	ListNode(int x) { val = x; }
+	private ListNode(int x) { val = x; }
 }
